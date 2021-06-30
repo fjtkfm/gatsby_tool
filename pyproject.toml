@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gatsuby_tool"
+version = "0.1.0"
+description = ""
+authors = ["piruty <8793641+piruty@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+main = "main:main"
