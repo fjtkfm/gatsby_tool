@@ -1,0 +1,10 @@
+[package]
+name = "gatsuby_tool"
+version = "0.1.0"
+authors = ["piruty <8793641+piruty@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "=3.0.0-beta.2"
